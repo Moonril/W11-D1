@@ -1,9 +1,6 @@
 /*
 
 
-9) Crea un tipo per rappresentare i giorni della settimana usando union di stringhe letterali.
-
-
 20) Crea un'interfaccia generica per una risposta API.   */
 let nome: string = 'giuseppa'
 let numero: number = 2
@@ -42,7 +39,7 @@ interface utente {
     phone?: number,
 }
 
-const Studenti: string | number[] = [{nome: 'giusy', voto: 4}]
+/* const Studenti: string | number[] = [{nome: 'giusy', voto: 4}] */
 
 
 interface Veicolo {
@@ -59,3 +56,9 @@ const Panda: Car = {
     canFly: false,
     marcia: true
 }
+
+
+
+interface API {}
+
+
